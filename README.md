@@ -19,6 +19,6 @@ To install `apitester`, you can either build it from source or download the pre-
 To build from the source, make sure you have Go installed. Then, run the following commands:
 
 ```bash
-git clone https://github.com/prasadjivane/apitester.git
-cd apitester/cmd/apitester
-go build -o apitester main.go
+git clone https://github.com/prasadjivane/gomytest.git
+
+go build -o gomytest cmd/gomytest/main.go    
