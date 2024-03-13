@@ -2,8 +2,6 @@
 
 Go package for testing APIs from the command line.
 
-# gomytest
-
 `gomytest` is a command-line tool written in Go that allows you to test various HTTP methods (GET, POST, PUT, DELETE) against RESTful APIs.
 
 ## Features
