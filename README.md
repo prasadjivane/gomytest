@@ -12,7 +12,7 @@ Go package for testing APIs from the command line.
 
 ## Installation
 
-To install `apitester`, you can either build it from source or download the pre-built binary for your platform from the [Releases](https://github.com/prasadjivane/apitester/releases) page.
+To install `gomytest`, you can either build it from source or download the pre-built binary for your platform from the [Releases](https://github.com/prasadjivane/gomytest/releases) page.
 
 ### Build from Source
 
@@ -30,7 +30,7 @@ To use gomytest, run the executable with the desired HTTP method, URL, and optio
 
 ```bash
 
-./apitester <method> <url> [data]
+./gomytest <method> <url> [data]
 ```
 
 Replace <method> with the desired HTTP method (GET, POST, PUT, DELETE), <url> with the endpoint URL you want to test, and [data] with any request data (for POST and PUT methods).
@@ -39,16 +39,16 @@ Replace <method> with the desired HTTP method (GET, POST, PUT, DELETE), <url> wi
 
 ```bash
 # GET request
-./apitester GET https://jsonplaceholder.typicode.com/posts/1
+./gomytest GET https://jsonplaceholder.typicode.com/posts/1
 
 # POST request
-./apitester POST https://jsonplaceholder.typicode.com/posts '{"title": "foo", "body": "bar", "userId": 1}'
+./gomytest POST https://jsonplaceholder.typicode.com/posts '{"title": "foo", "body": "bar", "userId": 1}'
 
 # PUT request
-./apitester PUT https://jsonplaceholder.typicode.com/posts/1 '{"title": "foo", "body": "bar", "userId": 1}'
+./gomytest PUT https://jsonplaceholder.typicode.com/posts/1 '{"title": "foo", "body": "bar", "userId": 1}'
 
 # DELETE request
-./apitester DELETE https://jsonplaceholder.typicode.com/posts/1
+./gomytest DELETE https://jsonplaceholder.typicode.com/posts/1
 ```
 
 ## Contributing
