@@ -41,10 +41,10 @@ Replace <method> with the desired HTTP method (GET, POST, PUT, DELETE), <url> wi
 ./gomytest GET https://jsonplaceholder.typicode.com/posts/1
 
 # POST request
-./gomytest POST https://jsonplaceholder.typicode.com/posts '{"title": "foo", "body": "bar", "userId": 1}'
+./gomytest POST https://jsonplaceholder.typicode.com/posts '{"title": "gomytest", "body": "now", "userId": 1}'
 
 # PUT request
-./gomytest PUT https://jsonplaceholder.typicode.com/posts/1 '{"title": "foo", "body": "bar", "userId": 1}'
+./gomytest PUT https://jsonplaceholder.typicode.com/posts/1 '{"title": "now", "body": "gomytest", "userId": 1}'
 
 # DELETE request
 ./gomytest DELETE https://jsonplaceholder.typicode.com/posts/1
